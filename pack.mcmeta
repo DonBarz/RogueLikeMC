@@ -1,0 +1,16 @@
+{
+    "pack": {
+        "id": "roguelikemc",
+        "min_format": 94.1,
+        "max_format": 94.1,
+        "description": [
+            {
+                "text": "Turns Minecraft into a roguelike Dungeon-Crawler",
+                "color": "#1eb2bc"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": []
+    }
+}

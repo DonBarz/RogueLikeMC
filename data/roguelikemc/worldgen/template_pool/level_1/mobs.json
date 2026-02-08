@@ -1,0 +1,86 @@
+{
+  "name": "roguelikemc:level_1/mobs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_1",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_2",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_3",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_4",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_5",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_6",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_7",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "roguelikemc:level_1/extras/mobs/mob_spawner_8",
+        "processors": "minecraft:empty",
+        "override_liquid_settings": "ignore_waterlogging"
+      }
+    }
+  ]
+}

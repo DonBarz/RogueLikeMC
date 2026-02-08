@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Choose a level to enter!",
+    "color": "gold",
+    "bold": true
+  },
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": {
+      "text": "Cancel",
+      "color": "red"
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "function roguelikemc:game_loop/return_to_base"
+    }
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": {
+        "text": "The abandoned mines",
+        "color": "dark_gray",
+        "bold": true
+      },
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "roguelikemc:entering_caves"
+      }
+    },
+    {
+      "label": {
+        "text": "The undead crypt",
+        "color": "dark_green",
+        "bold": true,
+        "obfuscated": true,
+        "hover_event": {
+          "action": "show_text",
+          "value": "Work in progress!"
+        }
+      }
+    },
+    {
+      "label": {
+        "text": "The dark oak forest",
+        "color": "#231a01",
+        "bold": true,
+        "obfuscated": true,
+        "hover_event": {
+          "action": "show_text",
+          "value": "Work in progress!"
+        }
+      }
+    },
+    {
+      "label": {
+        "text": "The woodland mansion",
+        "color": "dark_red",
+        "bold": true,
+        "obfuscated": true,
+        "hover_event": {
+          "action": "show_text",
+          "value": "Work in progess!"
+        }
+      }
+    }
+  ]
+}
