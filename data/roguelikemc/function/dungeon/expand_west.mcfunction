@@ -16,8 +16,8 @@ data modify storage roguelikemc:data rot set value "clockwise_90"
 
 # debug
 # execute if entity @s[tag=west] run say continuing west
-execute if entity @s[tag=west] at @s run function roguelikemc:dungeon/expand/place_straight with storage roguelikemc:data
+execute if entity @s[tag=west] at @s run function roguelikemc:dungeon/place_straight with storage roguelikemc:data
 # execute if entity @s[tag=south] run say turning south
-execute if entity @s[tag=south] at @s run function roguelikemc:dungeon/expand/place_left with storage roguelikemc:data
+execute if entity @s[tag=south] at @s run function roguelikemc:dungeon/place_left with storage roguelikemc:data
 
 execute at @s run tp @s ~-21 ~ ~

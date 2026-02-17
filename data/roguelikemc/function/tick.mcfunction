@@ -17,4 +17,4 @@
 # execute at @a[gamemode=adventure] if items entity @e[limit=1,distance=..8,type=armor_stand] armor.feet golden_boots run function roguelikemc:game_loop/stage_cleared
 
 #expand dungeon
-execute at @a[] as @e[distance=..128,tag=structure_marker,type=minecraft:armor_stand] run function roguelikemc:dungeon/expand/expand
+execute at @a[] as @e[distance=..128,tag=structure_marker,type=minecraft:armor_stand] run function roguelikemc:dungeon/expand

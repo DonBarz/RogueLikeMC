@@ -18,10 +18,10 @@ data modify storage roguelikemc:data rot set value "none"
 
 # debug
 # execute if entity @s[tag=south] run say continuing south
-execute if entity @s[tag=south] at @s run function roguelikemc:dungeon/expand/place_straight with storage roguelikemc:data
+execute if entity @s[tag=south] at @s run function roguelikemc:dungeon/place_straight with storage roguelikemc:data
 # execute if entity @s[tag=east] run say turning east
-execute if entity @s[tag=east] at @s run function roguelikemc:dungeon/expand/place_left with storage roguelikemc:data
+execute if entity @s[tag=east] at @s run function roguelikemc:dungeon/place_left with storage roguelikemc:data
 # execute if entity @s[tag=west] run say turning west
-execute if entity @s[tag=west] at @s run function roguelikemc:dungeon/expand/place_right with storage roguelikemc:data
+execute if entity @s[tag=west] at @s run function roguelikemc:dungeon/place_right with storage roguelikemc:data
 
 execute at @s run tp @s ~ ~ ~21

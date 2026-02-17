@@ -1,2 +1,2 @@
-$execute as @e[distance=..16,type=minecraft:armor_stand] if entity DonBarz facing entity @s eyes at @s run summon minecraft:armor_stand ~ ~ ~ {equipment:{head:{id:"minecraft:diamond_helmet", count:1}}, Tags:["structure_marker","$(level)","$(type)","$(dir)","$(i)"]}
+$execute as @e[distance=..16,type=minecraft:armor_stand] if entity DonBarz facing entity @s eyes at @s run summon minecraft:armor_stand ~ ~ ~ {equipment:{head:{id:"minecraft:diamond_helmet", count:1}}, Tags:["structure_marker","$(dir)"]}
 execute as @e[distance=..16,type=minecraft:armor_stand] unless data entity @s Tags run kill

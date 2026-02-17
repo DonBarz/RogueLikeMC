@@ -1,0 +1,2 @@
+execute as @e[distance=..256,type=minecraft:armor_stand] if items entity @s armor.feet netherite_boots at @s run summon minecraft:armor_stand ~ ~ ~ {equipment:{head:{id:"minecraft:netherite_helmet", count:1}}, Tags:["spawner_marker"]}
+execute as @e[distance=..266,type=minecraft:armor_stand] if items entity @s armor.feet netherite_boots unless data entity @s Tags run kill

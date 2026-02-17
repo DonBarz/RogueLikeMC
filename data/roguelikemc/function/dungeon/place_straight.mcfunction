@@ -1,8 +1,8 @@
 # {posX, posY, posZ, rot, level, randInt}
 
-# 10 percent chance for changing the stage
+# 5 percent chance for changing the stage
 # only possible on straight
-execute if predicate roguelikemc:random_chance_10 run tag @s add transition
+execute if predicate roguelikemc:random_chance_20 run tag @s add transition
 # execute as @s[tag=transition] run say "Changing to next level!"
 
 # maximum level check level
