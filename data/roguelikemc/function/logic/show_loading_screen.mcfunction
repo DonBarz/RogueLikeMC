@@ -1,1 +1,0 @@
-title @a actionbar {text:"Clearing chunks! This could take a while."}
